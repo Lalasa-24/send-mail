@@ -1,0 +1,17 @@
+{ "version": 2,
+"builds": [
+  {
+    "src": "pages/api/send-email.js",
+    "use": "@vercel/node"
+  }
+],
+"routes": [
+  { "src": "/api/send-email", "dest": "/pages/api/send-email.js" }
+],
+    "env": {
+      "EMAIL_USER": "senderexample02@gmail.com",
+      "EMAIL_PASS": "siaz bukk kwug ltye",
+      "RECEIVER_EMAIL": "lalasaa24@gmail.com"
+    }
+  }
+  
