@@ -13,7 +13,7 @@ app.use(express.json());
 
 // CORS setup
 app.use(cors({
-    origin: 'https://your-frontend-url.com', // Replace with your actual frontend URL
+    origin: 'https://portfolio-lalasa.vercel.app/', // Replace with your actual frontend URL
     credentials: true,
 }));
 
